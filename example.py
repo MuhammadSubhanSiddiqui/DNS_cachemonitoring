@@ -74,8 +74,8 @@ def check_threat(api_key, ip):
 
 # Function to send email alerts
 def send_email_alert(subject, body, recipient):
-    sender = "231553@students.au.edu.pk"
-    password = "uqcn uszr rwki jmms"  # Replace with your email's app password
+    sender = ""
+    password = ""  # Replace with your email's app password
     msg = MIMEText(body)
     msg["Subject"] = subject
     msg["From"] = sender
