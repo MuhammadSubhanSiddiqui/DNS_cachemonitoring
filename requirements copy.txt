@@ -1,0 +1,9 @@
+dnspython
+requests
+pandas
+schedule
+logging
+
+
+api_key = ""
+Gmail app password : 
